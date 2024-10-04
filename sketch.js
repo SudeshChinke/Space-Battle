@@ -336,11 +336,5 @@ function SpawnStone() {
   stoneGroup.add(stone);
   stoneGroup.visible=true;  
  }  
-}dImage("M",stoneImg);
-  stone.scale = 0.35;
-  stone.lifetime = 800;
-  stone.velocityY = (4+3*score/10);
-  stoneGroup.add(stone);
-  stoneGroup.visible=true;  
- }  
-}
+} 
+
